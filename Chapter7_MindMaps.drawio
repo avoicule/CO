@@ -1,0 +1,180 @@
+<mxfile host="app.diagrams.net" type="device" version="24.0.0">
+  <diagram name="0. How to Start" id="howto">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="h_a" value="START&#10;You know Ch.3 (programmer's view)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="420" y="30" width="320" height="50" as="geometry" /></mxCell>
+        <mxCell id="h_b" value="Step 1 — ANCHOR&#10;Ch.7 is the HARDWARE under Ch.3 ideas.&#10;Always ask: 'which Ch.3 idea is this?'" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="400" y="110" width="360" height="60" as="geometry" /></mxCell>
+        <mxCell id="h_c" value="Step 2 — LEARN 6 WORDS&#10;bus · master · slave · protocol · synchronous · asynchronous" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="380" y="200" width="400" height="50" as="geometry" /></mxCell>
+        <mxCell id="h_d" value="7.1 Bus Structure — what a bus IS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="430" y="280" width="300" height="40" as="geometry" /></mxCell>
+        <mxCell id="h_e" value="7.2 Bus Operation — THE CORE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="430" y="350" width="300" height="40" as="geometry" /></mxCell>
+        <mxCell id="h_e1" value="7.2.1 Synchronous (clock)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1"><mxGeometry x="140" y="420" width="240" height="40" as="geometry" /></mxCell>
+        <mxCell id="h_e2" value="7.2.2 Asynchronous (handshake)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1"><mxGeometry x="440" y="420" width="280" height="40" as="geometry" /></mxCell>
+        <mxCell id="h_e3" value="7.2.3 Electrical (tri-state) — read last" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1"><mxGeometry x="780" y="420" width="260" height="40" as="geometry" /></mxCell>
+        <mxCell id="h_f" value="7.3 Arbitration — who gets the bus" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="430" y="490" width="300" height="40" as="geometry" /></mxCell>
+        <mxCell id="h_g" value="7.4 Interface Circuits — parallel vs serial" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="430" y="560" width="300" height="40" as="geometry" /></mxCell>
+        <mxCell id="h_h" value="7.5 Standards (USB/FireWire/PCI/PCIe) — breadth, not depth" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="400" y="630" width="360" height="40" as="geometry" /></mxCell>
+        <mxCell id="h_i" value="ACTIVE RECALL after each section:&#10;redraw the diagram · say the sequence aloud · state the trade-off" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="380" y="700" width="400" height="60" as="geometry" /></mxCell>
+
+        <mxCell id="he1" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="h_a" target="h_b"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="he2" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="h_b" target="h_c"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="he3" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="h_c" target="h_d"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="he4" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="h_d" target="h_e"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="he5" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="h_e" target="h_e1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="he6" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="h_e" target="h_e2"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="he7" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="h_e" target="h_e3"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="he8" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="h_e1" target="h_f"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="he9" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="h_e2" target="h_f"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="he10" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="h_f" target="h_g"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="he11" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="h_g" target="h_h"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="he12" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="h_h" target="h_i"><mxGeometry relative="1" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <diagram name="1. Master Map" id="master">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="m_root" value="Ch.7&#10;I/O ORGANIZATION" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1f3864;fontColor=#ffffff;fontSize=15;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="490" y="40" width="200" height="60" as="geometry" /></mxCell>
+        <mxCell id="m_71" value="7.1 BUS STRUCTURE&#10;Shared wires: address + data + control&#10;One pair at a time · address decoder picks device" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=8;" vertex="1" parent="1"><mxGeometry x="40" y="170" width="300" height="70" as="geometry" /></mxCell>
+        <mxCell id="m_72" value="7.2 BUS OPERATION  (THE CORE)&#10;protocol=rules · R/W line · master vs slave&#10;7.2.1 Synchronous (clock) · 7.2.2 Asynchronous (handshake)&#10;7.2.3 Electrical (tri-state)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;spacingLeft=8;" vertex="1" parent="1"><mxGeometry x="380" y="170" width="360" height="80" as="geometry" /></mxCell>
+        <mxCell id="m_73" value="7.3 ARBITRATION&#10;Arbiter + priority · Bus-request/Bus-grant · round-robin" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;spacingLeft=8;" vertex="1" parent="1"><mxGeometry x="780" y="170" width="340" height="70" as="geometry" /></mxCell>
+        <mxCell id="m_74" value="7.4 INTERFACE CIRCUITS&#10;Port: parallel (many bits) vs serial (one bit)&#10;Six interface jobs · ties back to Ch.3 registers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;spacingLeft=8;" vertex="1" parent="1"><mxGeometry x="200" y="310" width="360" height="70" as="geometry" /></mxCell>
+        <mxCell id="m_75" value="7.5 STANDARDS&#10;USB(tree,polling) · FireWire(daisy,peer) · PCI(bridge,PnP)&#10;PCIe(point-to-point) · SATA/SAS/SCSI(storage)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;spacingLeft=8;" vertex="1" parent="1"><mxGeometry x="600" y="310" width="360" height="70" as="geometry" /></mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="m_root" target="m_71"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="m_root" target="m_72"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="m_root" target="m_73"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="m_root" target="m_74"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="m_root" target="m_75"><mxGeometry relative="1" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <diagram name="2. Bus Structure" id="busstruct">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="b_cpu" value="Processor&#10;(usually the MASTER)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="120" y="60" width="160" height="50" as="geometry" /></mxCell>
+        <mxCell id="b_mem" value="Memory" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="360" y="60" width="140" height="50" as="geometry" /></mxCell>
+        <mxCell id="b_io1" value="I/O device 1&#10;(SLAVE)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="580" y="60" width="140" height="50" as="geometry" /></mxCell>
+        <mxCell id="b_ion" value="I/O device n&#10;(SLAVE)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="780" y="60" width="140" height="50" as="geometry" /></mxCell>
+        <mxCell id="b_bus" value="B U S   (shared)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1f3864;fontColor=#ffffff;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="120" y="180" width="800" height="30" as="geometry" /></mxCell>
+        <mxCell id="b_addr" value="ADDRESS lines — WHICH device/register" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=8;" vertex="1" parent="1"><mxGeometry x="120" y="220" width="800" height="30" as="geometry" /></mxCell>
+        <mxCell id="b_data" value="DATA lines — the bits being moved" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;spacingLeft=8;" vertex="1" parent="1"><mxGeometry x="120" y="255" width="800" height="30" as="geometry" /></mxCell>
+        <mxCell id="b_ctrl" value="CONTROL lines — R/W, timing, status" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;spacingLeft=8;" vertex="1" parent="1"><mxGeometry x="120" y="290" width="800" height="30" as="geometry" /></mxCell>
+        <mxCell id="b_rule" value="RULE: only ONE source→destination pair uses the bus at a time.&#10;ADDRESSING: master puts an address → EVERY device's address decoder checks it →&#10;the one that matches responds; all others ignore.  (This is the HW behind memory-mapped I/O.)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;" vertex="1" parent="1"><mxGeometry x="120" y="360" width="800" height="90" as="geometry" /></mxCell>
+        <mxCell id="be1" style="html=1;endArrow=none;" edge="1" parent="1" source="b_cpu" target="b_bus"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="be2" style="html=1;endArrow=none;" edge="1" parent="1" source="b_mem" target="b_bus"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="be3" style="html=1;endArrow=none;" edge="1" parent="1" source="b_io1" target="b_bus"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="be4" style="html=1;endArrow=none;" edge="1" parent="1" source="b_ion" target="b_bus"><mxGeometry relative="1" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <diagram name="3. Synchronous Bus" id="sync">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s_t0" value="t0&#10;master puts&#10;ADDRESS + READ command" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="60" y="120" width="220" height="70" as="geometry" /></mxCell>
+        <mxCell id="s_t1" value="t1&#10;slave puts&#10;DATA on the bus" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="340" y="120" width="220" height="70" as="geometry" /></mxCell>
+        <mxCell id="s_t2" value="t2 (end of cycle)&#10;master LATCHES data&#10;into its register" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="620" y="120" width="220" height="70" as="geometry" /></mxCell>
+        <mxCell id="s_lim" value="LIMITS of simple scheme&#10;• 1 transfer per cycle → clock forced to the SLOWEST device&#10;• master has no proof the device responded (undetected errors)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;spacingLeft=8;" vertex="1" parent="1"><mxGeometry x="120" y="260" width="500" height="80" as="geometry" /></mxCell>
+        <mxCell id="s_fix" value="FIX: Multiple-cycle transfer + SLAVE-READY ack&#10;• transfer may span several cycles → duration ADAPTS per device&#10;• Slave-ready confirms data is on the bus → enables error detect / abort" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;spacingLeft=8;" vertex="1" parent="1"><mxGeometry x="120" y="370" width="500" height="90" as="geometry" /></mxCell>
+        <mxCell id="s_note" value="Timing constraints: pulse width (t1−t0) > max propagation delay + decode time;  (t2−t1) > propagation + register setup time." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;" vertex="1" parent="1"><mxGeometry x="60" y="480" width="800" height="50" as="geometry" /></mxCell>
+        <mxCell id="se1" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="s_t0" target="s_t1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="se2" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="s_t1" target="s_t2"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="se3" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="s_lim" target="s_fix"><mxGeometry relative="1" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <diagram name="4. Async Handshake" id="async">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="a_hdr" value="ASYNCHRONOUS BUS — NO clock; timing by a FULL (interlocked) HANDSHAKE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1f3864;fontColor=#ffffff;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="80" y="30" width="700" height="40" as="geometry" /></mxCell>
+        <mxCell id="a0" value="t0 — master places ADDRESS + COMMAND (all devices decode)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=8;" vertex="1" parent="1"><mxGeometry x="80" y="100" width="620" height="35" as="geometry" /></mxCell>
+        <mxCell id="a1" value="t1 — master asserts MASTER-READY   (delay t1−t0 covers bus SKEW)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=8;" vertex="1" parent="1"><mxGeometry x="80" y="145" width="620" height="35" as="geometry" /></mxCell>
+        <mxCell id="a2" value="t2 — slave places DATA + asserts SLAVE-READY" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;spacingLeft=8;" vertex="1" parent="1"><mxGeometry x="80" y="190" width="620" height="35" as="geometry" /></mxCell>
+        <mxCell id="a3" value="t3 — Slave-ready reaches master → master LATCHES data, drops Master-ready" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;spacingLeft=8;" vertex="1" parent="1"><mxGeometry x="80" y="235" width="620" height="35" as="geometry" /></mxCell>
+        <mxCell id="a4" value="t4 — master removes address/command (delay covers skew)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=8;" vertex="1" parent="1"><mxGeometry x="80" y="280" width="620" height="35" as="geometry" /></mxCell>
+        <mxCell id="a5" value="t5 — slave sees Master-ready LOW → removes data + drops Slave-ready → DONE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;spacingLeft=8;" vertex="1" parent="1"><mxGeometry x="80" y="325" width="620" height="35" as="geometry" /></mxCell>
+        <mxCell id="a_key" value="SKEW = signals sent together arrive at different times (lines differ in speed).&#10;FULLY INTERLOCKED = each change happens only in response to the other → highest reliability (but slower)." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;" vertex="1" parent="1"><mxGeometry x="80" y="390" width="620" height="70" as="geometry" /></mxCell>
+        <mxCell id="ae0" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="a0" target="a1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="ae1" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="a1" target="a2"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="ae2" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="a2" target="a3"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="ae3" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="a3" target="a4"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="ae4" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="a4" target="a5"><mxGeometry relative="1" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <diagram name="5. Sync vs Async" id="svsa">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v_s_t" value="SYNCHRONOUS (clock)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="80" y="60" width="440" height="30" as="geometry" /></mxCell>
+        <mxCell id="v_s" value="• Timing from a shared CLOCK&#10;• 1 round-trip per transfer → FASTER&#10;• Clock distribution is HARD (edges must align)&#10;• Needs Slave-ready added for error detect&#10;• Used by most high-speed buses today&#10;• Hook: marching band to a drumbeat" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="80" y="90" width="440" height="170" as="geometry" /></mxCell>
+        <mxCell id="v_a_t" value="ASYNCHRONOUS (handshake)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="620" y="60" width="440" height="30" as="geometry" /></mxCell>
+        <mxCell id="v_a" value="• Timing from a HANDSHAKE (Master-ready/Slave-ready)&#10;• 2 round-trips (4 delays) → SLOWER&#10;• No clock to distribute&#10;• Error detect built in (fully interlocked)&#10;• Adapts to any device speed automatically&#10;• Hook: a two-way conversation" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="620" y="90" width="440" height="170" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <diagram name="6. Arbitration" id="arb">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ar_m1" value="Master 1&#10;(highest priority)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="80" y="120" width="160" height="60" as="geometry" /></mxCell>
+        <mxCell id="ar_arb" value="ARBITER&#10;grants by PRIORITY" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="420" y="110" width="200" height="90" as="geometry" /></mxCell>
+        <mxCell id="ar_m2" value="Master 2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="820" y="80" width="160" height="50" as="geometry" /></mxCell>
+        <mxCell id="ar_m3" value="Master 3&#10;(lowest priority)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="820" y="170" width="160" height="60" as="geometry" /></mxCell>
+        <mxCell id="ar_ex" value="EXAMPLE (1 = highest):&#10;1) M2 requests (BR2) — no competition → arbiter grants BG2&#10;2) While M2 busy, BOTH M1 and M3 request&#10;3) M2 done (drops BR2)&#10;4) Arbiter grants BG1 FIRST (M1 higher priority)&#10;5) Then grants BG3 to M3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;spacingLeft=8;" vertex="1" parent="1"><mxGeometry x="200" y="280" width="500" height="130" as="geometry" /></mxCell>
+        <mxCell id="ar_key" value="KEY: priority beats arrival order (M3 asked before M1 but served after).&#10;No urgency? → round-robin for fairness. Lines: each master has Bus-request (BRn) + Bus-grant (BGn)." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;" vertex="1" parent="1"><mxGeometry x="120" y="440" width="760" height="70" as="geometry" /></mxCell>
+        <mxCell id="are1" value="BR1 / BG1" style="html=1;endArrow=none;" edge="1" parent="1" source="ar_m1" target="ar_arb"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="are2" value="BR2 / BG2" style="html=1;endArrow=none;" edge="1" parent="1" source="ar_arb" target="ar_m2"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="are3" value="BR3 / BG3" style="html=1;endArrow=none;" edge="1" parent="1" source="ar_arb" target="ar_m3"><mxGeometry relative="1" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <diagram name="7. Interface Circuits" id="iface">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="i_bus" value="BUS SIDE&#10;address · data · control" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="80" y="120" width="200" height="70" as="geometry" /></mxCell>
+        <mxCell id="i_if" value="INTERFACE CIRCUIT&#10;(hides the difference —&#10;CPU sees both ports the same)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1f3864;fontColor=#ffffff;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="400" y="110" width="260" height="90" as="geometry" /></mxCell>
+        <mxCell id="i_par" value="PARALLEL PORT&#10;many bits at once&#10;(e.g. 8-bit keyboard)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="780" y="60" width="240" height="60" as="geometry" /></mxCell>
+        <mxCell id="i_ser" value="SERIAL PORT&#10;one bit at a time&#10;(conversion inside interface)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1"><mxGeometry x="780" y="150" width="240" height="60" as="geometry" /></mxCell>
+        <mxCell id="i_jobs" value="SIX JOBS OF ANY I/O INTERFACE:&#10;1) data register   2) status register   3) control register&#10;4) address decoding   5) timing signals   6) format conversion (e.g. parallel↔serial)&#10;&#10;Ties to Ch.3: the parallel INPUT interface is literally the KBD_DATA / KBD_STATUS / KIN hardware." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;" vertex="1" parent="1"><mxGeometry x="120" y="280" width="800" height="130" as="geometry" /></mxCell>
+        <mxCell id="ie1" style="html=1;endArrow=none;" edge="1" parent="1" source="i_bus" target="i_if"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="ie2" style="html=1;" edge="1" parent="1" source="i_if" target="i_par"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="ie3" style="html=1;" edge="1" parent="1" source="i_if" target="i_ser"><mxGeometry relative="1" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <diagram name="8. Standards" id="std">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="st_data" value="DATA NATURE (explains the designs)&#10;• ASYNCHRONOUS data: irregular, low-rate (keystroke ~10 B/s)&#10;• ISOCHRONOUS data: steady equal intervals (audio 44.1 kHz) — timing &gt; correctness" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;" vertex="1" parent="1"><mxGeometry x="80" y="40" width="700" height="80" as="geometry" /></mxCell>
+        <mxCell id="st_usb" value="USB&#10;Tree (hubs + root hub) · serial · plug-and-play · hot-plug&#10;POLLING-only (no collisions → cheap hubs) · 7-bit USB address · differential signaling" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=8;" vertex="1" parent="1"><mxGeometry x="80" y="150" width="700" height="70" as="geometry" /></mxCell>
+        <mxCell id="st_fw" value="FireWire (IEEE 1394)&#10;Daisy chain · differential serial · PEER-TO-PEER (device→device, no host) · audio/video" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;spacingLeft=8;" vertex="1" parent="1"><mxGeometry x="80" y="235" width="700" height="60" as="geometry" /></mxCell>
+        <mxCell id="st_pci" value="PCI&#10;Motherboard bus via a BRIDGE · pioneered plug-and-play · shares address/data lines (cost) · burst transfers&#10;Terms: initiator/target, FRAME#, IRDY#, TRDY#, DEVSEL#" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;spacingLeft=8;" vertex="1" parent="1"><mxGeometry x="80" y="310" width="700" height="70" as="geometry" /></mxCell>
+        <mxCell id="st_pcie" value="PCI Express (PCIe): point-to-point serial lanes — modern replacement for PCI's shared bus." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;spacingLeft=8;" vertex="1" parent="1"><mxGeometry x="80" y="395" width="700" height="40" as="geometry" /></mxCell>
+        <mxCell id="st_stor" value="SATA / SAS / SCSI: storage-device (disk) interfaces." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;spacingLeft=8;" vertex="1" parent="1"><mxGeometry x="80" y="450" width="700" height="40" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
